@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/taraksh01/backend/issues"
   },
-  "homepage": "https://github.com/taraksh01/backend#readme"
+  "homepage": "https://github.com/taraksh01/backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
