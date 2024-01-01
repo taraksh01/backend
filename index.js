@@ -1,8 +1,9 @@
+require("dotenv").config();
 const express = require("express");
 
 const app = express();
 
-const port = 1111;
+const port = process.env.PORT || 1111;
 
 app.get("/", (req, res) => {
   res.send("Backend is running");
