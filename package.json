@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend learning with express.js and mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taraksh01/backend.git"
+  },
+  "keywords": [
+    "backend",
+    "taraksh01",
+    "mongoDB",
+    "express.js",
+    "MERN",
+    "mern"
+  ],
+  "author": "TARAK SHAW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taraksh01/backend/issues"
+  },
+  "homepage": "https://github.com/taraksh01/backend#readme"
+}
