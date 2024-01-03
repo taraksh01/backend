@@ -48,3 +48,19 @@ app.listen(port, () => {
   console.log("app is running");
 });
 ```
+
+## Models creation
+
+1. import mongoose
+2. create a schema using mongoose.Schema
+3. export the model for user using mongoose.model
+
+```javascript
+import mongoose from "mongoose";
+
+const schema = new mongoose.Schema({
+  // fields of schema
+});
+
+export const Model = mongoose.model("Model", schema);
+```
